@@ -1,9 +1,9 @@
-# MATLAB Fall 2014 – Research Plan (Template)
+# MATLAB Fall 2014 – Research Plan
 (text between brackets to be removed)
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed later)
+> * Group Name: somethingsomething
+> * Group participants names: Sebastian Lechner, Adrian Oesch & Zuzana Sediva
+> * Project Title: MemeDiff
 
 ## General Introduction
 
