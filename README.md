@@ -2,8 +2,8 @@
 (text between brackets to be removed)
 
 > * Group Name: somethingsomething
-> * Group participants names: Sebastian Lechner, Adrian Oesch & Zuzana Sediva
-> * Project Title: MemeDiff
+> * Group participants names: Sebastian Lechner, Adrian Oesch, Zuzana Sediva & Amrollah Seifoddini
+> * Project Title: MemeDiff(?)
 
 ## General Introduction
 
