@@ -6,7 +6,7 @@
 
 ## General Introduction
 
-We decided to use paper “Multiparameter Models of Innovation Diffusion on Complex Networks” as the base theory for our project and extend their model to find the relation between seed characteristics and model parameters in clustered networks.
+We decided to use the paper “Multiparameter Models of Innovation Diffusion on Complex Networks” as the basis for our project and extend their model to find the relation between seed characteristics and model parameters in clustered networks.
 
 ## The Model
 
@@ -19,19 +19,18 @@ Our proposed model explains the diffusion of innovation using a threshold model.
 
 ## Expected Results
 
-The total utility is given by (t)=(αp\_i+ βs(t)+ γm(t))*w-i where p_i is the personal benefit, s_i is the community benefit, m(t) is the mainstream social norm and w_i is the degree determining how easy this node can be influenced by others. Remarkably, in this model the personal benefit p_i is independent from the time. Here α+ β+ γ=1 and we choose w_i randomly between 0.5-1.5.
-Then we looked at the number of neighbors needed to induce uptake of an innovation. As u_i needs to be at least θ in order for an innovation to spread to node i, one obtains the critical community benefit s^* (s^*=  (θ- αp_i- γm(t))/β
-From here one gets the required number of active contacts Y_i^*. If Y_i^*=0, the innovation is adopted immediately by all nodes.
+The total utility is given by (t)=(αp\_i+ βs(t)+ γm(t))* w-i where p\_i is the personal benefit, s\_i is the community benefit, m(t) is the mainstream social norm and w\_i is the degree determining how easy this node can be influenced by others. Remarkably, in this model the personal benefit p\_i is independent from the time. Here α+ β+ γ=1 and we choose w\_i randomly between 0.5-2.
+Then we looked at the number of neighbors needed to induce uptake of an innovation. As u\_i needs to be at least θ in order for an innovation to spread to node i, one obtains the critical community benefit s^{*} (s^{*}=  (θ- αp_i- γm(t))/β
+From here one gets the required number of active contacts Y\_i^{*}. If Y\_i^*=0, the innovation is adopted immediately by all nodes.
 In this paper, both random networks (ER network) and structured networks (Watts-Strogatz network) are studied. For us the Watts-Strogatz model is more interesting since we are concerned about the spreading of innovation between communities.
 Eventually, we will observe the network in stable state and will analyses how seed characteristics relate to parameters of our model in a highly clustered network.
 
 
 ## References 
 
-Mccullen, N. J., Rucklidge, A. M., Bale, C. S. E., Foxon, T. J., & Gale, W. F. (2013). Multiparameter Models of Innovation Diffusion on Complex Networks, 12(1), 515–532.
-Watts, D. J., Dodds, P. S., & Dodds, P. S. (2014). Formation, 34(4), 441–458.
+McCullen, N J, A M Rucklidge, C S E Bale, T J Foxon, and W F Gale. 2013. “Multiparameter Models of Innovation Diffusion on Complex Networks.” SIAM Journal on Applied Dynamical Systems 12 (1): 515–32. doi:10.1137/120885371.
+Watts, Duncan J, and Peter Sheridan Dodds. 2007. “Influentials, Networks, and Public Opinion Formation.” Journal of Consumer Research 34 (4): 441–58. doi:10.1086/518527.
 
 
-## Research Methods
 
-Agent-Based Model
+
