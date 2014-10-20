@@ -14,7 +14,7 @@ The model which they propose is applicable to a range of innovation diffusion ap
 
 ## Fundamental Questions
 
-Our proposed model explains the diffusion of innovation using a threshold model. In a threshold model a node i accepts an innovation if the utility gain u from accepting exceeds a certain threshold θ.
+In general we would like to understand how the characteristics of the first nodes in a network that accept an innovation, also known as seeds, influence the diffusion of the very same innovation. In particular we would to know whether including a variable for the node’s i influenceability in the model of McCullen et al. will allow us replicate the finding of Watts and Doods (Watts and Dodds 2007), who showed that the success of an innovation primarily depends on to what the extent easily influenced individuals with a large node degree have accepted the innovation.
 
 
 ## Expected Results
