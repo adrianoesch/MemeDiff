@@ -26,7 +26,7 @@ In general we would like to understand how the characteristics of the first node
 
 ## Expected Results
 
-Eventually, we will observe the network at steady-state and analyse how seed characteristics relate to parameters of our model in a highly clustered network. We replicate the model of Watts and Doods in a more sophisticated manner and thus expect to also observe, that the success of innovation diffusion primarily depends on clusters of nodes that easily accept an innovation.
+Eventually, we will observe the network at steady-state and analyse how seed characteristics relate to parameters of our model in a highly clustered network. We replicate the model of Watts and Doods in a more sophisticated manner and thus expect to also observe that the success of innovation diffusion primarily depends on clusters of nodes that easily accept an innovation.
 
 
 ## References 
