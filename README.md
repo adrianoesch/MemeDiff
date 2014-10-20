@@ -19,7 +19,7 @@ Our proposed model explains the diffusion of innovation using a threshold model.
 
 ## Expected Results
 
-The total utility is given by (t)=(αp_i+ βs(t)+ γm(t))*w-i where p_i is the personal benefit, s_i is the community benefit, m(t) is the mainstream social norm and w_i is the degree determining how easy this node can be influenced by others. Remarkably, in this model the personal benefit p_i is independent from the time. Here α+ β+ γ=1 and we choose w_i randomly between 0.5-1.5.
+The total utility is given by (t)=(αp\_i+ βs(t)+ γm(t))*w-i where p_i is the personal benefit, s_i is the community benefit, m(t) is the mainstream social norm and w_i is the degree determining how easy this node can be influenced by others. Remarkably, in this model the personal benefit p_i is independent from the time. Here α+ β+ γ=1 and we choose w_i randomly between 0.5-1.5.
 Then we looked at the number of neighbors needed to induce uptake of an innovation. As u_i needs to be at least θ in order for an innovation to spread to node i, one obtains the critical community benefit s^* (s^*=  (θ- αp_i- γm(t))/β
 From here one gets the required number of active contacts Y_i^*. If Y_i^*=0, the innovation is adopted immediately by all nodes.
 In this paper, both random networks (ER network) and structured networks (Watts-Strogatz network) are studied. For us the Watts-Strogatz model is more interesting since we are concerned about the spreading of innovation between communities.
