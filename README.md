@@ -1,5 +1,4 @@
 # MATLAB Fall 2014 – Research Plan
-(text between brackets to be removed)
 
 > * Group Name: somethingsomething
 > * Group participants names: Sebastian Lechner, Adrian Oesch, Zuzana Sediva & Amrollah Seifoddini
