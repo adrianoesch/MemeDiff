@@ -29,8 +29,8 @@ Eventually, we will observe the network at steady-state and analyse how seed cha
 
 ## References 
 
-McCullen, N J, A M Rucklidge, C S E Bale, T J Foxon, and W F Gale. 2013. “Multiparameter Models of Innovation Diffusion on Complex Networks.” SIAM Journal on Applied Dynamical Systems 12 (1): 515–32. doi:10.1137/120885371.
-Watts, Duncan J, and Peter Sheridan Dodds. 2007. “Influentials, Networks, and Public Opinion Formation.” Journal of Consumer Research 34 (4): 441–58. doi:10.1086/518527.
+* McCullen, N J, A M Rucklidge, C S E Bale, T J Foxon, and W F Gale. 2013. “Multiparameter Models of Innovation Diffusion on Complex Networks.” SIAM Journal on Applied Dynamical Systems 12 (1): 515–32. doi:10.1137/120885371.
+* Watts, Duncan J, and Peter Sheridan Dodds. 2007. “Influentials, Networks, and Public Opinion Formation.” Journal of Consumer Research 34 (4): 441–58. doi:10.1086/518527.
 
 
 
