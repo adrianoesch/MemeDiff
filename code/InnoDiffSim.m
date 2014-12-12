@@ -83,10 +83,6 @@ for j=1:N
     xlabel('No of utility updates','FontSize',15)
     ylabel('Success ratio','FontSize',15)
     waitbar(j/N)
-    % print success ratio every 10th iteration
-    if mod(j,10)==0;
-        sum(seed_char_list(:,12))/j
-    end
 end
 
 hold off;
