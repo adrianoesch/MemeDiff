@@ -1,5 +1,4 @@
 close all;
-addpath('../B-A');
 %set parameters ---------------------------------
 N=500; % amount of nodes in network
 uThreshold=0.262; % utility threshold. very sensitive!
@@ -118,8 +117,6 @@ plot(degree_unique, degree_unique_norm,'magenta');
 xlabel('k');
 ylabel('P(k)')
 
-%unbreak if you want to save data to csv
-break
 
 
 %create table with headers
@@ -143,5 +140,8 @@ pfilename = strcat('data/perspref_',filestamp,'.csv');
 
 %write csvs
 writetable(t,rfilename,'writevariablenames',1);
+
+%unbreak if you want to save perspref and acj data to csv
+break
 csvwrite(afilename,adj);
 csvwrite(pfilename,perspref);
