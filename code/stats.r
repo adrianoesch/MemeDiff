@@ -1,6 +1,8 @@
-setwd('~/Dropbox/msssm_project/adrian/data')
-list.files()
-d <- read.csv(list.files()[88],header=T)
+# set current working directory first!
+
+# setwd('~/Dropbox/msssm_project/adrian/data')
+# list.files()
+d <- read.csv('data/results_(3-6-1)_th-0.262_suc-0.104_08-Dec-2014 17-34-20.csv')
 scd <- data.frame(unlist(apply(d,2,scale)))
 scd$success <- d$success
 source('functions.r')
@@ -50,7 +52,7 @@ summary(glm(success ~ neighs_degree + neighs_perspref + neighs_localc + neighs_b
             data=scd,family=binomial(logit))))
 summary(glm(success ~ neighsmax_degree + neighsmax_perspref + neighsmax_localc + neighsmax_betweenness + neighsmax_eigenc ,
             data=scd,family=binomial(logit)))
-        
+
 summary(glm(success ~ seed_degree,data=scd,family=binomial(logit)))
 summary(glm(success ~ neighs_degree,data=scd,family=binomial(logit)))
 summary(glm(success ~ neighsmax_degree,data=scd,family=binomial(logit)))

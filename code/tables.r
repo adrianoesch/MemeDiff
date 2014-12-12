@@ -1,6 +1,8 @@
-setwd('~/Dropbox/msssm_project/adrian/data')
-list.files()
-d <- read.csv(list.files()[74],header=T)
+# set current working directory first!
+
+# setwd('~/Dropbox/msssm_project/adrian/data')
+# list.files()
+d <- read.csv('data/results_(3-6-1)_th-0.262_suc-0.104_08-Dec-2014 17-34-20.csv')
 library(xtable)
 library(stargazer)
 
@@ -60,14 +62,14 @@ xtable(corstarsl(subset(d,select=c(seed_perspref,seed_degree,seed_eigenc,seed_be
 
 seedmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref,
                data=scd,family=binomial(logit))
-neighmaxmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref + 
+neighmaxmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref +
                      neighsmax_eigenc + neighsmax_degree + neighsmax_localc + neighsmax_betweenness + neighsmax_perspref,
                    data=scd,family=binomial(logit))
 neighsmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref+
                    neighs_eigenc + neighs_degree + neighs_localc+neighs_betweenness + neighs_perspref,
                  data=scd,family=binomial(logit))
-allmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref 
-              + neighs_eigenc + neighs_degree + neighs_localc+neighs_betweenness + neighs_perspref 
+allmod <- glm(success ~ seed_eigenc + seed_degree + seed_localc + seed_betweenness + seed_perspref
+              + neighs_eigenc + neighs_degree + neighs_localc+neighs_betweenness + neighs_perspref
               + neighsmax_eigenc + neighsmax_degree + neighsmax_localc + neighsmax_betweenness + neighsmax_perspref,
               data=scd,family=binomial(logit))
 
