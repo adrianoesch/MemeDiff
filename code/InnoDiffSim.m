@@ -30,10 +30,9 @@ for j=1:N
     nodes = zeros(N,1);    
     seed = j; %lets check each node(j) as a seed
     nodes(seed) = 1; % set seed nodes to 1
-    
     neighs = find(adj(seed,:)); %get neighbouring nodes of seed
-
     vars = ones(max_iter,1); %prepare innovation progress variable
+    
     i=1;
     while true
         vars(i)=mean(nodes); %update innovation diffusion progress
@@ -113,8 +112,6 @@ plot(degree_unique, degree_unique_norm,'magenta');
 xlabel('k');
 ylabel('P(k)')
 
-
-
 %create table with headers
 t = table(seed_char_list(:,1),seed_char_list(:,2),seed_char_list(:,3),seed_char_list(:,4),...
           seed_char_list(:,5),seed_char_list(:,6),seed_char_list(:,7),seed_char_list(:,8),...
@@ -137,7 +134,7 @@ pfilename = strcat('data/perspref_',filestamp,'.csv');
 %write csvs
 writetable(t,rfilename,'writevariablenames',1);
 
-%unbreak if you want to save perspref and acj data to csv
+%unbreak if you want to save perspref and adj data to csv
 break
 csvwrite(afilename,adj);
 csvwrite(pfilename,perspref);
